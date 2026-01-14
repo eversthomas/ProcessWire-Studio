@@ -1,0 +1,80 @@
+/* ProcessWire Studio - Tabs */
+.pw-studio-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.pw-studio-tab {
+    padding: 10px 16px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    background: #f8f9fa;
+    text-decoration: none;
+    color: #333;
+}
+
+.pw-studio-tab.active {
+    background: #fff;
+    border-bottom: 2px solid #fff;
+    margin-bottom: -2px;
+}
+
+.pw-studio-content {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+}
+
+/* ProcessWire Studio - Code Generator */
+.pw-studio-codegen {
+    max-width: 1200px;
+}
+
+/* Small gap helper (avoids inline styles) */
+.pw-studio-gap-sm {
+    gap: 10px;
+}
+
+/* Code output styling */
+.pw-studio-code-wrapper {
+    background: #2d2d2d !important;
+    padding: 20px;
+    border-radius: 4px;
+    overflow-x: auto;
+    max-height: 600px;
+    margin: 0;
+    border: 1px solid #e5e5e5;
+}
+
+.pw-studio-code-wrapper code {
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    font-size: 13px;
+    line-height: 1.6;
+    display: block;
+    white-space: pre;
+    word-wrap: normal;
+}
+
+/* Field type badges */
+.uk-badge {
+    font-size: 0.75rem;
+    padding: 2px 8px;
+}
+
+/* Form labels with checkboxes */
+.uk-form-label {
+    cursor: pointer;
+}
+
+.uk-form-label .uk-checkbox {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* Success message after copy */
+#copy-code-btn .uk-icon {
+    transition: all 0.3s ease;
+}
